@@ -1,1 +1,20 @@
-Test
+<div class="row">
+	<div class="col-md-4">
+		<div class="tabs tabs-vertical tabs-left tabs-navigation">
+			<ul class="nav nav-tabs col-sm-3">
+				<li class="active"><a data-toggle="tab" href="#tabsLogin"><em class="fa fa-unlock"></em> Login</a></li>
+				<li><a data-toggle="tab" href="#tabsRegistration"><em class="fa fa-user-plus"></em> Register</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="col-md-8">
+		<div class="tab-pane tab-pane-navigation active" id="tabsLogin">
+			<div>[login]</div>
+		</div>
+
+		<div class="tab-pane tab-pane-navigation" id="tabsRegistration">
+			<div>[registration]</div>
+		</div>
+	</div>
+</div>
